@@ -7,17 +7,19 @@
 
 4. Run the command 'pip install virtualenv'
 
-5. Run the command 'python -m venv <virtual-environment-name>'
+5. Run the command 'python -m venv "virtual-environment-name"'
 
-6. Run the command 'pip install -r requirements.txt'
+6. Activate the virtual environment by the command '"path-to-the-virtual-env"/Scripts/Activate.ps1'
 
-7. Go into 'sentiment_analysis_api' directory
+7. Run the command 'pip install -r requirements.txt'
 
-8. Run the command 'python manage.py runserver'
+8. Go into 'sentiment_analysis_api' directory using 'cd sentiment_analysis_api' command
 
-9. Open the url 'http://127.0.0.1:8000/' in your browser to have a frontend view.
+9. Run the command 'python manage.py runserver'
 
-10. Open the url 'http://127.0.0.1:8000/api/analyze/' in your browser to have a rest API view.
+10. Open the url 'http://127.0.0.1:8000/' in your browser to have a frontend view.
+
+11. Open the url 'http://127.0.0.1:8000/api/analyze/' in your browser to have a rest API view.
 
 
 # URLs
